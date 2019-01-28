@@ -22,7 +22,7 @@ Setup
 [How to Create a Trigger](https://www.iterm2.com/documentation-triggers.html)
 
 <pre>
-    Regular expression: rz waiting to receive.\*\*B0100
+    Regular expression: \*\*B0100
     Action: Run Silent Coprocess
     Parameters: /usr/local/bin/iterm2-send-zmodem.sh
     Instant: checked
